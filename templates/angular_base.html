@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+{% load staticfiles %}
+{% load compress %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="gains graph">
+    <meta name="description" content="Website to Check how much you have gained/lost">
+
+    <title>{% block title %}{% endblock title %}</title>
+    {% include 'favicon.html' %}
+
+    {% compress js inline %}
+        <script src="{% static "lib/scripts/analytics.js" %}"></script>
+        <script>
+            ga('set', '&uid', {{ user.id }});
+        </script>
+    {% endcompress %}
+
+    {% block styles %}
+    {% endblock styles %}
+</head>
+<body>
+
+{% block content %}
+
+{% endblock content %}
+
+{% block scripts %}
+
+{% endblock scripts %}
+
+</body>
+</html>

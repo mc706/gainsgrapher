@@ -1,0 +1,22 @@
+
+{% extends "angular_base.html" %}
+
+{% block styles %}
+    {% include "gainsGrapher/vendor_styles.html" %}
+    {% include "gainsGrapher/application_styles.html" %}
+{% endblock styles %}
+
+{% block content %}
+    {% verbatim %}
+    <div ng-app="gainsGrapher" class="top-level">
+        <div ng-controller="GlobalController" ng-cloak>
+
+        </div>
+    </div>
+    {% endverbatim %}
+{% endblock content %}
+
+{% block scripts %}
+    {% include "gainsGrapher/vendor_scripts.html" %}
+    {% include "gainsGrapher/application_scripts.html" %}
+{% endblock scripts %}

@@ -1,0 +1,28 @@
+{
+  "name": "gainsgrapher",
+  "version": "0.0.0",
+  "description": "App to Track Goal Gains",
+  "main": " ",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "bower": "^1.3.12",
+    "jshint": "^2.6.3"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "fab test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mc706/gainsgrapher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mc706/gainsgrapher/issues"
+  },
+  "homepage": "https://github.com/mc706/gainsgrapher"
+}

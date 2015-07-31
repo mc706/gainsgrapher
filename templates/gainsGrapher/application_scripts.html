@@ -1,0 +1,16 @@
+{% load staticfiles %}
+{% load compress %}
+
+{% compress js %}
+    <script src="{% static "apps/gainsGrapher/app.js" %}"></script>
+
+    <script src="{% static "apps/gainsGrapher/config/csrf.js" %}"></script>
+    <script src="{% static "apps/gainsGrapher/config/limiter.js" %}"></script>
+    <script src="{% static "apps/gainsGrapher/config/routes.js" %}"></script>
+
+    <script src="{% static "apps/gainsGrapher/controllers/globalController.js" %}"></script>
+    <script src="{% static "apps/gainsGrapher/controllers/homeController.js" %}"></script>
+
+    <script src="{% static "apps/gainsGrapher/services/embeddedService.js" %}"></script>
+
+{% endcompress %}
