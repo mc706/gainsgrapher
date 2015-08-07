@@ -26,6 +26,7 @@ ALLOWED_HOSTS = []
 
 ENVIRON = os.environ.get('PARAM1')
 
+SECRET_KEY = "$4g)kw%5k_uoapu0d6a+p+*(1h%l+stx!z=zkh264l3bj+r*zz"
 
 
 # Application definition

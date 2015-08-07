@@ -1,8 +1,14 @@
 /* TEAM */
 
-	Developer:
-	Twitter:
+	Developer: Ryan McDevitt
+	Twitter: @mc706
+	Website: http://www.mc706.com
+	From: Philadelphia, PA
+
+
+	Designer: Ryan McDevitt
+	Twitter: @lindaallenx
 	Website:
-	From:
+	From: Philadelphia, PA
 
 /* THANKS */
